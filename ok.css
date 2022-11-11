@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins &display=swap");
+
+* {
+  font-family: "poppins", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #32a3b1;
+  text-transform: uppercase;
+  border-bottom: 4px solid #ebf5fc;
+  font-size: 40px;
+  padding-bottom: 10px;
+  margin-top: 40px;
+  font-family: "poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.card-panel h4 {
+  color: #32a3b1;
+  font-family: "poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.4em;
+  letter-spacing: 1px;
+  /* padding: 10px; */
+}
+
+.card-panel p {
+  color: #32a3b1;
+}
+.card-panel {
+  position: relative;
+  align-items: center;
+
+  text-align: center;
+  width: 320px;
+  height: 460px;
+  background: #ebf5fc;
+  border-radius: 20px;
+  box-shadow: -6px -6px 20px #32a3b1;
+  transition: 250ms all;
+  -webkit-transition: 250ms all;
+}
+
+.card-panel:hover {
+  box-shadow: none;
+}
+
+.card-panel a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 40px;
+  color: #32a3b1;
+  font-size: 16px;
+  text-decoration: none;
+  box-shadow: -4px -4px 20px #32a3b1;
+  transition: 500ms all;
+  -webkit-transition: 500ms all;
+  transform: scaleX(1);
+}
+.card-panel a:hover {
+  display: block;
+  transform: scaleX(1.1);
+}
+
+.container .row:hover .img .container .card:hover .contentbox {
+  /* transform: scale(0.98); */
+}
+
+.page-footer {
+  background-color: red;
+}

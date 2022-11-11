@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name = "viewport" content = "width = device-width, initial-scale = 1"> 
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel = "stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style type="text/css">
+    @import "https://cndjs.cloudflare.com/ajax/libs/font-awsome/4.7.0/css/font-awsome.min.css";
+  	body{
+        
+  			padding: 0;
+  			margin: 0;
+  	}
+    section{
+      width: 100%;
+    }
+  	.wave{
+  			position: relative;
+  			background: linear-gradient(45deg, #DF7401,#FF4000);
+  	}
+  	.wave:before{
+  			content: '';
+  			position: absolute;
+  			left: 0;
+  			bottom: 0;
+  			width: 100%;
+  			height: 256px;
+  			background: black;
+  			background: url(wave.png);
+  			background-repeat: no-repeat;
+  	}
+    nav .badge{
+      position: absolute;
+      top: 20px;
+    }
+    .social{
+      text-align: center;
+      font-size: 27px;
+      list-style: none;
+      display: inline-block;
+      width: 40px;
+      border-radius: 50%;
+      background: #494944;
+      position: relative;
+    }
+    .social:hover{
+      background: white;
+    }
+    .material-icons{
+      font-size: 16px;
+    }
+    .page{
+      font-size: 16px;
+    }
+    .contact-links{
+      color: white;
+    }
+    .contact-links:hover{
+      color: #1976d2;
+    }
+
+  	</style>
+</head>
+<body>
+
+  <div class="navbar-fixed">
+  <nav class = "nav-wraper blue">
+    <div class="container">
+      <a href="#" class = "brand-logo" style = "font-size: 20px; color: black"><img src = "images/img1.jpg" height = "50px" width = "60px" style = "margin-top: 5px"></a>
+      <a href="#" class = "sidenav-trigger" data-target="mobile-links">
+        <i class = "material-icons">menu</i>
+      </a>
+
+      
+  <!-- Dropdown Structure -->
+<ul id="service" class="dropdown-content" style = "background-color:#2196f3;">
+  <li><a href="#" style = " color:#fff; "><strong> SERVICES</strong></a></li>
+  <li class="divider" style = " color:#fff; "></li>
+  <li><a href="#" style = " color:#fff;">Web Development</a></li>
+  <li><a href="#" style = " color:#fff; ">Antivirus</a></li>
+  <li><a href="#" style = " color:#fff; ">Maintaince</a></li>
+  <li><a href="#" style = " color:#fff; ">Network Devices</a></li>
+</ul>
+
+      
+      <ul class = "right hide-on-med-and-down">
+        <li><a href="#"><strong>HOME</strong></a></li>
+        <li><a href="#"><strong>ABOUT</strong></a></li>
+        <li><a href="#"><strong>PRODUCT</strong></a></li>
+        <li><a class="dropdown-trigger" href="#!" data-target="service"><strong>SERVICES</strong><i class="material-icons right">arrow_drop_down</i></a></li>
+    
+
+        <li><a href="#"><strong>CONTACT</strong></a></li>
+      </ul>
+
+    </div>
+  </nav>
+  </div>
+  <ul class="sidenav" id = "mobile-links">
+    <li><a href="#">HOME</a></li>
+    <li><a href="#">ABOUT</a></li>
+    <li><a href="#">PRODUCT</a></li>
+    <li><a class="dropdown-trigger" href="#!" data-target="serviceMobile"><strong>SERVICES</strong><i class="material-icons right">arrow_drop_down</i></a></li>
+    <li><a href="#">CONTACT</a></li>
+  </ul>
+   <!-- Dropdown Structure -->
+  <ul id="serviceMobile" class="dropdown-content" style = "background-color:#2196f3;">
+  <li><a href="#" style = " color:#fff; "><strong> SERVICES</strong></a></li>
+  <li class="divider" style = " color:#fff; "></li>
+  <li><a href="#" style = " color:#fff;">Web Development</a></li>
+  <li><a href="#" style = " color:#fff; ">Antivirus</a></li>
+  <li><a href="#" style = " color:#fff; ">Maintaince</a></li>
+  <li><a href="#" style = " color:#fff; ">Network Devices</a></li>
+  </ul>
+
+  <div class="carousel carousel-slider">
+    <a class="carousel-item active" href="#one!"><img src="images/img1.jpg" height = "400px"></a>
+    <a class="carousel-item" href="#two!"><img src="images/img2.jpg" height = "400px"></a>
+    <a class="carousel-item" href="#three!"><img src="images/img3.jpg" height = "400px"></a>
+    <a class="carousel-item" href="#four!"><img src="images/img4.jpg" height = "400px"></a>
+  </div>
+
+
+
+  <section>
+    <footer class = "page-footer grey darken-3" style = "background-image: url(wave.png); background-size: cover; background-color: black">
+    <div class="row">
+      <div class="col s12 l3 offset-l1">
+        <h5 style = "color: black">Global Digitronix</h5>
+        <p>Global Digitronix focuses on multiplying the business of ICT including software and hardware by providing quality service and to make things easier and saving of time/effort by using software.</p>
+      </div>
+
+      <div class="col s12 l2">
+            <h5>Pages</h5>
+            <ul>
+              <li><i class="fa fa-arrow-up "></i> <a href="#" style = "color: white;">Home</a></li>
+              <li><i class="fa fa-arrow-up "></i> <a href="#" style = "color: white;">About us</a></li>
+              <li><i class="fa fa-arrow-up "></i> <a href="#" style = "color: white;">Services</a></li>
+              <li><i class="fa fa-arrow-up "></i> <a href="#" style = "color: white;">Our Products</a></li>
+            </ul>
+      </div>
+
+            <div class="col s12 l3">
+            <h5>Contact Us</h5>
+            <p>
+              <i class="material-icons red-text">location_on</i> Subidhanagar, Tinkune<br>
+              <span style = "margin-left: 20px">Kathmandu, Nepal</span><br>
+              <a href="tel:+977 1 4111897" class = "contact-links"><i class="material-icons blue-text">local_phone</i> +977 1 4111897</a><br>
+              <i class="material-icons grey-text">markunread</i> GPO Box: 8975, EPC: 5477<br>
+              <a href="mailto:info@globaldg.net"  class = "contact-links"><i class="material-icons grey-text">mail</i> info@globaldg.net</a><br>
+            </p>
+            </div>
+
+          <div class="col s12 l3">
+          <h5>Keep In Touch</h5>
+          <div class="social-links">
+
+          <li class = "social">
+          <a href="https://www.facebook.com/globaldg/?ref=br_rs"> <i class="fa fa-facebook indigo-text darken-4 fb"></i></a>
+          </li>
+
+          <li class = "social"><i class="fa fa-google-plus red-text"></i> <a href="#"></a></li>
+          <li class = "social"><i class="fa fa-twitter blue-text"></i> <a href="#"></a></li>
+          <li class = "social"><i class="fa fa-linkedin blue-text"></i> <a href="#"></a></li>
+
+          </div>
+          </div>
+
+    </div>
+  </div>
+  <div class="footer-copyright grey darken-4">
+    <div class = "container center-align">
+    &copy; Copyright <strong>Global Digitronix</strong>. All Rights Reserved
+  </div>
+      
+</footer>
+</section>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+$(".dropdown-trigger").dropdown();
+$(document).ready(function(){
+    $('.carousel').carousel();
+  });
+  $('.carousel.carousel-slider').carousel({
+    fullWidth: true,
+    indicators: true
+  });
+  $('.carousel.carousel-slider').carousel({
+    fullWidth: true
+  });
+</script>
+  
+</body>
+</html>

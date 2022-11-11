@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins &display=swap");
+
+.banner {
+  position: relative; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a733bb+0,7d4ac7+100 */
+  background: #a733bb; /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    #a733bb 0%,
+    #7d4ac7 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    #a733bb 0%,
+    #7d4ac7 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    #a733bb 0%,
+    #7d4ac7 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a733bb', endColorstr='#7d4ac7', GradientType=1); /* IE6-9 */
+}
+.banner .banner-img {
+  position: relative;
+  bottom: -40px;
+  z-index: 99;
+  width: 100%;
+}
+.banner .banner-text {
+  padding: 120px 0 130px 0;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+.banner .banner-text h1 {
+  font-size: 35px;
+  font-weight: 600;
+  margin-top: 120px;
+  color: #ffffff;
+}
+.banner .banner-text h3 {
+  color: #ffffff;
+}
+.banner .banner-text h3 span {
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+}
+.banner-after {
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 204px;
+  position: absolute;
+  z-index: 9;
+}
+.banner .banner-text .form-control {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  height: 45px;
+  padding: 0 15px 0 15px;
+  outline: none !important;
+  box-shadow: inherit;
+  width: 280px;
+}
+.banner .banner-text .button {
+  box-shadow: inherit;
+  border: none;
+  background: #ffffff;
+  padding: 0 15px;
+  border-radius: 5px;
+  height: 45px;
+  cursor: pointer;
+}
+.banner .banner-text .button i {
+  font-size: 40px;
+  color: #a733bb;
+}
+.banner .banner-text ::-webkit-input-placeholder {
+  /* Chrome */
+  color: #ffffff;
+}
+.banner .banner-text :-ms-input-placeholder {
+  /* IE 10+ */
+  color: #ffffff;
+}
+.banner .banner-text ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #ffffff;
+  opacity: 1;
+}
+.banner .banner-text :-moz-placeholder {
+  /* Firefox 4 - 18 */
+  color: #ffffff;
+  opacity: 1;
+}
+.banner form {
+  padding: 0;
+  border: inherit;
+}
+/*---------------------------------------------------------------------
+3 Features
+-----------------------------------------------------------------------*/
+.iq-features {
+  overflow: hidden;
+  padding-bottom: 40px;
+  position: relative;
+}
+.iq-features .top-img1 {
+  width: 50%;
+  -webkit-box-shadow: 0px 10px 46px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 10px 46px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 46px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 32px;
+}
+.iq-features .bg img {
+  position: absolute;
+  opacity: 0.1;
+  width: 25%;
+  left: -230px;
+  top: 250px;
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 100000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spin;
+  -moz-animation-duration: 100000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: spin;
+  -ms-animation-duration: 100000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  animation-name: spin;
+  animation-duration: 100000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@media (max-width: 479px) {
+  .banner .banner-text h1 {
+    font-size: 24px;
+    line-height: 38px;
+  }
+  .banner .banner-text .form-control {
+    width: 224px;
+  }
+  .title-box h2 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .iq-works .m-top {
+    margin-top: 80px;
+  }
+  .iq-works .m-top.works-arrow1 {
+    margin-top: 45px;
+  }
+  .works-box {
+    margin-top: 250px;
+  }
+  .about-manu li {
+    margin: 0;
+    width: 100%;
+    display: inherit !important;
+  }
+  .about-manu.menu-sticky {
+    padding: 0;
+  }
+  .about-manu li.active a:after {
+    border: inherit !important;
+  }
+  .about-manu li.active {
+    background: #7d4ac7;
+    background: url(./png/1.jpg);
+    background: -moz-linear-gradient(left, #7d4ac7 0%, #a733bb 100%);
+    background: -webkit-linear-gradient(left, #7d4ac7 0%, #a733bb 100%);
+    background: linear-gradient(to right, #7d4ac7 0%, #a733bb 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7d4ac7', endColorstr='#a733bb', GradientType=1); /* IE6-9 */
+  }
+  .about-manu li.active a {
+    color: #ffffff;
+  }
+  .works-box .top-img1 {
+    left: 0;
+  }
+  .iq-login-regi h1 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .support form .form-control {
+    width: 195px;
+  }
+  .support .title-box h2 {
+    font-size: 24px;
+  }
+  header .logo {
+    width: 90px;
+  }
+  header .login li {
+    padding-right: 5px;
+    margin-right: 1px;
+  }
+  header .login {
+    right: 75px;
+    top: -48px;
+    font-size: 12px;
+    padding: 0 12px;
+  }
+  header .navbar {
+    padding: 10px 0;
+  }
+  .iq-features {
+    overflow: hidden;
+  }
+  .contentCircle .CirItem i {
+    font-size: 150px;
+    top: -30px;
+  }
+  .iq-coming #countdown li {
+    margin: 0;
+  }
+  .iq-coming #countdown li span {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .iq-coming #countdown li p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: inherit;
+  }
+  .iq-coming #countdown li span:after {
+    content: none;
+  }
+  .iq-coming form .form-control {
+    width: 230px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .banner .banner-text h1 {
+    font-size: 24px;
+    margin-top: 90px;
+    line-height: 42px;
+  }
+  .banner .banner-img {
+    bottom: -35px;
+  }
+  .iq-works .m-top {
+    margin-top: 470px;
+  }
+  .works-arrow2:after {
+    right: -130px;
+  }
+  header .navbar-light .navbar-nav .nav-item {
+    margin: 0 7px;
+  }
+  header .navbar-light .navbar-nav .nav-link {
+    font-size: 14px;
+  }
+  .banner-after {
+    bottom: -23px;
+  }
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.works-box .works-img1 {
+  position: absolute;
+  left: 30px;
+  bottom: 50px;
+  width: 80%;
+  -webkit-animation: rotation 300000ms infinite linear;
+}
